@@ -3,12 +3,7 @@
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>false</Nullable>
-
-        <IsPackable>false</IsPackable>
-
         <AssemblyName>Katas.Logic.UnitTests</AssemblyName>
-
         <RootNamespace>Katas.Logic.UnitTests</RootNamespace>
     </PropertyGroup>
 
@@ -26,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Logic\Logic.csproj" />
+        <ProjectReference Include="..\..\src\Logic\Logic.csproj" />
     </ItemGroup>
 
 </Project>
